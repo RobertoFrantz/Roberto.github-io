@@ -1,0 +1,115 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.logo{
+    background-color: lightgray;
+}
+.logo img{
+    height: 200px;
+    width: 100%px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+    text-align: right;
+}
+li{
+    display: inline-flex;
+}
+li a, .titulo-smenu{
+    display: inline-block;
+    color: black;
+    padding: 1px 10px;
+    text-decoration: none;
+}
+li a:hover, .submenu:hover .titulo-smenu{
+    background-color: navy;
+    color: white;
+}
+li.submenu{
+    display: inline-block;
+}
+.lista-itens{
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: fit-content;
+    box-shadow: 0px 8px 16px 0px darkgray;
+}
+.lista-itens a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.lista-itens a:hover{
+    background-color: navy;
+    color: white;
+}
+.submenu:hover .lista-itens{
+    display: block;
+}
+.destaque1{
+    background-image: url(../imgs/server_room.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.coluna-1 a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    background-color: rgb(50, 211, 112);
+    padding: 12px 10px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
+.coluna-1 a:hover{
+    background-color: yellow;
+    color: blue;
+}
+.coluna-3{
+    column-count: 3;
+}
+.imagem-descr img{
+    width: 50%;
+    height: auto;
+    max-height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.destaque2{
+    background-image: url(../imgs/baixados.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: yellow;
+    font-weight: bolder;
+}
+.destaque2 h1{
+    text-shadow: 3px 3px 0px yellowgreen;
+}
+.rodape{
+    background-color: gray;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
